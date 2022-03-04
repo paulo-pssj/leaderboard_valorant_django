@@ -3,7 +3,7 @@ import requests
 
 def index(request):
 
-    url = 'https://br.api.riotgames.com/val/ranked/v1/leaderboards/by-act/SUA API KEY?size=200&startIndex=0&api_key=RGAPI-76a5d312-0769-47f8-bb62-15ef5d893473'
+    url = 'https://br.api.riotgames.com/val/ranked/v1/leaderboards/by-act/SUA API KEY?size=200&startIndex=0&api_key= API KEY RIOT'
 
     data_full = requests.get(url).json()
 
